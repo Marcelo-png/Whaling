@@ -1,0 +1,37 @@
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: url(https://images.pexels.com/photos/1790974/pexels-photo-1790974.jpeg?cs=srgb&dl=sea-blue-tunisia-visittunisia-1790974.jpg&fm=jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.btn {
+    border-radius: 5rem;
+    transition: all 1s;
+}
+
+.btn:hover {
+    transform: rotate(-10deg) scale(1.4);
+}
+
+.btn-xl {
+    width: 10rem;
+    height: 4rem;
+}
+
+.buffer {
+    margin-top: 3rem;
+}
+
+.row {
+    width: 100%;
+}
+
+img {
+    height: 27.5vh;
+    min-width: 10rem;
+    min-height: 2rem;
+}
